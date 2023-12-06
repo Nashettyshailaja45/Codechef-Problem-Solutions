@@ -1,6 +1,6 @@
 import heapq
 class Solution:
-    def firstMissingPositive(self, nums: List[int]) -> int:https://github.com/Nashettyshailaja45/Codechef-Problem-Solutions/tree/main
+    def firstMissingPositive(self, nums: List[int]) -> int:
         heap=[]
         for n in nums:
             if(n>0):
